@@ -1,7 +1,10 @@
-Minifolio es un portafolio pequeño o resumido que sirve para mostrar tus habilidades, proyectos y experiencia de manera rápida y clara.
+## 🚀 Mi Minifolio
 
-A diferencia de un portafolio completo, que puede ser largo y detallado, un minifolio destaca solo lo más importante.
+Un **minifolio** es un portafolio pequeño y resumido que muestra **lo más importante de mi trabajo** de manera rápida y clara.  
 
-Suele incluir proyectos destacados, tus tecnologías principales y enlaces a tu GitHub o LinkedIn.
+💡 En él encontrarás:  
+- Mis **proyectos destacados**  
+- Las **tecnologías** que manejo  
+- Enlaces a mi **GitHub, LinkedIn y otras redes**  
 
-Es útil cuando quieres dar una primera impresión rápida a reclutadores o clientes, sin que tengan que leer un portafolio extenso.
+Es ideal para que cualquier persona pueda conocer **mi experiencia y habilidades de un vistazo**, sin necesidad de recorrer un portafolio completo.
