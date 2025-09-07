@@ -1,0 +1,262 @@
+/* estilos cv.html */
+/* div principal */
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #758BFD;
+  padding-left: 5%;
+  padding-top: 5%;
+  gap: 50px;
+}
+/* cabecera incluye la foto y los datos de contacto */
+#cabecera {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+#contenedor-foto-perfil {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
+  height: 20%;
+}
+
+#mi-foto {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  display: block;
+}
+
+#datos {
+  flex: 1;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+#datos > h1 {
+  font-size: 24px;
+}
+
+#datos > h2 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.686);
+}
+
+#cuerpo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+}
+
+#hard-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  width: 100%;
+}
+#hard-skills .sector2 {
+  margin-left: 3%;
+}
+
+#soft-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  width: 100%;
+}
+
+#educacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  width: 100%;
+}
+
+#experiencia {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  width: 100%;
+}
+
+.sector {
+  width: 20vw;
+}
+.sector2 {
+  width: 100%;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+/* aqui termina estilos de cv.html */
+/* aqui empieza estilos de index */
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#indexBody {
+  background-color: #AEB8FE;
+}
+
+#indexHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    background-color:#758BFD;
+    opacity: 0.9;
+    border-radius: 0% 0% 5% 5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12%;
+}
+
+@media (max-width: 768px) {
+  #indexHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    background-color: rgba(96, 104, 240, 0.594);
+    opacity: 0.9;
+    border-radius: 0% 0% 5% 5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
+
+#indexFooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+  background-color: #758BFD;
+  opacity: 0.85;
+  border-radius: 0% 0% 5% 5%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+}
+#fotoPortada {
+    width: 5%;
+    height: 80%;
+    border-radius: 100%;
+    object-fit: cover;
+    position: relative;
+    background: #000;
+    margin: 1%;
+}
+
+
+@media (max-width: 768px) {
+  #indexTitle,
+  #fotoPortada {
+    display: none;
+    align-items: end;
+  }
+}
+#navegationButtons {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  #navegationButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+  }
+}
+
+#navegationButtons a,
+#volver {
+  padding: 10px 20px;
+  background-color: #525252;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+#navegationButtons a:hover,
+#volver:hover {
+  background-color: #000000;
+}
+
+#indexCorps {
+  margin: 10% 1%;
+  padding-bottom: 5%;
+}
+.videos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+a {
+  color: #48035E;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+a:hover {
+  color: #EF8354;
+  text-decoration: underline;
+  font-weight: bold;
+}
+img {
+  max-width: 300px;
+  display: table-column;
+  margin-bottom: 1%;
+}
